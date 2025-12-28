@@ -38,9 +38,44 @@ activities = {
         "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
         "max_participants": 30,
         "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+    },
+    "Basketball Team": {
+        "description": "Competitive basketball practice and games",
+        "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 15,
+        "participants": ["alex@mergington.edu"]
+    },
+    "Tennis Club": {
+        "description": "Tennis training and friendly matches",
+        "schedule": "Tuesdays and Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 16,
+        "participants": ["sarah@mergington.edu"]
+    },
+    "Art Studio": {
+        "description": "Painting, drawing, and digital art creation",
+        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 18,
+        "participants": ["lucy@mergington.edu", "james@mergington.edu"]
+    },
+    "Theater Club": {
+        "description": "Acting, stage production, and performance",
+        "schedule": "Mondays and Thursdays, 4:00 PM - 5:30 PM",
+        "max_participants": 25,
+        "participants": ["maya@mergington.edu"]
+    },
+    "Robotics Team": {
+        "description": "Build and program robots for competitions",
+        "schedule": "Tuesdays, Wednesdays, Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 20,
+        "participants": ["ryan@mergington.edu", "avery@mergington.edu"]
+    },
+    "Science Club": {
+        "description": "Explore physics, chemistry, and biology through experiments",
+        "schedule": "Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 22,
+        "participants": ["noah@mergington.edu"]
     }
 }
-
 
 @app.get("/")
 def root():
