@@ -70,8 +70,35 @@ section h3 {
   color: #0066cc;
 }
 
-.activity-card p {
-  margin-bottom: 8px;
+/* New participants styles */
+.activity-card .participants {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #e6e6e6;
+}
+
+.activity-card .participants h5 {
+  margin: 0 0 8px 0;
+  font-size: 0.95rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.activity-card .participants ul {
+  list-style: disc;
+  margin-left: 20px;
+  color: #555;
+}
+
+.activity-card .participants li {
+  padding: 4px 0;
+  font-size: 0.95rem;
+}
+
+.activity-card .participants .no-participants {
+  font-style: italic;
+  color: #888;
+  font-size: 0.95rem;
 }
 
 .form-group {
